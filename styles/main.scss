@@ -1,0 +1,14 @@
+.rectangular{
+  border:{
+    style: solid;
+    color: red;
+    width: 2px;
+    radius: 4px;
+  }
+}
+
+div{
+  text-align: center;
+  font-size: 25px;
+  @extend .rectangular;
+}
